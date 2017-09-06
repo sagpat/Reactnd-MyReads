@@ -172,3 +172,28 @@ body, .app {
   text-align: center;
   font-size: 0.8em;
 }
+
+/* Page Not Found */
+
+.page-not-found-title {
+  padding: 10px 0;
+  background: #3548;
+  text-align: center;
+}
+.page-not-found-message h1 {
+  font-weight: 400;
+  margin: 0;
+  color: white;
+}
+
+.goto-main-page {
+  display: block;
+  top: 20px;
+  left: 30px;
+  width: 200px;
+  height: 53px;
+  margin-left: 5px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  font-size: 30;
+}
