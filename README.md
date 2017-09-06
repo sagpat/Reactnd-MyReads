@@ -1,3 +1,13 @@
+## My Reads- A Udacity React Js Nanodegree Project  
+This project is a part of Udacity's React Js Nanodegree Program.  
+
+#### How to Setup  
+Fork or Download the Repository and follow below instructions-  
+
+1. Open terminal. Traverse to the repository path.
+2. Type, npm install ( Wait until all the packages get install)  
+3. Then type, npm start ( This will start the application at localhost:3000)  
+
 ## Project Structure
 ```
 +--public/    
@@ -10,6 +20,9 @@
   |-- arrow-drop-down.svg
  |-- App.js - This is the root of your app. Contains static HTML right now.
  |-- App.css - Styles for your app. Feel free to customize this as you desire.
+ |-- Book.js - The React Component to Render the Books on UI.
+ |-- MyReads.js - The React Component to Show the books on Shelve.
+ |-- SearchBooks.js - React Component to Search Books.
  |-- App.test.js - Used for testing. Provided with Create React App.
  Testing is encouraged, but not required.
  |-- BooksAPI.js - A JavaScript API for the provided Udacity backend.
@@ -52,9 +65,3 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 ## create-react-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
