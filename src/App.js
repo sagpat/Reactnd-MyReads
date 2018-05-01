@@ -7,11 +7,9 @@ import SearchBooks from './SearchBooks'
 import NotFound from './NotFound'
 
 class BooksApp extends React.Component {
-
   state = {
     books:[]
   }
-
   componentDidMount(){
     this.getAllBooks()
   }
@@ -24,7 +22,6 @@ class BooksApp extends React.Component {
 
 // This is a change for develop branch!!
   findInBookShelf = (books, bookToFind) => (books.find((book) => (book.id === bookToFind.id)))
-
   adjustBooksShelf = (bookInTransition, shelf) => {
     BooksAPI.update(bookInTransition, shelf).then(() =>{
       this.setState(state => {
