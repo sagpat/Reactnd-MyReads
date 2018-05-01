@@ -22,6 +22,7 @@ class BooksApp extends React.Component {
     })
   }
 
+// This is a change for develop branch!!
   findInBookShelf = (books, bookToFind) => (books.find((book) => (book.id === bookToFind.id)))
 
   adjustBooksShelf = (bookInTransition, shelf) => {
