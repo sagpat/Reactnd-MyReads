@@ -50,7 +50,7 @@ class BooksApp extends React.Component {
   }
 
 
-  adjustFoundBooksShelf = (foundBooks) => {
+  adjustFoundBooksShelf = () => {
     return foundBooks.map((foundBook) => {
       const foundBookInShelf = this.findInBookShelf(this.state.books, foundBook)
         if(foundBookInShelf){
