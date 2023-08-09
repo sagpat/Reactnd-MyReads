@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 // import App from './App'
-// import App from './App'
+// Prateek's changes - import App from './App'
 
 /** 
  This course is not designed to teach Test Driven Development. 
