@@ -7,7 +7,7 @@ import App from './App'
  Feel free to use this file to test your application, but it 
  is not required.
 **/
-
+/// Gowtham's changes for git check.
 it('renders without crashing', () => {
   const div = document.createElement('div')
   ReactDOM.render(<App />, div)
